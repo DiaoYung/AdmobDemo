@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="lib" path="libs/okhttp-3.4.2.jar"/>
+	<classpathentry kind="lib" path="libs/okio-1.11.0.jar"/>
+	<classpathentry kind="lib" path="libs/picasso-2.5.2.jar"/>
+	<classpathentry kind="lib" path="libs/tgsdk.1.6.4.jar"/>
+	<classpathentry kind="lib" path="libs/tgsdkadayang.1.6.4.jar"/>
+	<classpathentry kind="lib" path="libs/tgsdkaddianjoy.1.6.4.jar"/>
+	<classpathentry kind="lib" path="libs/tgsdkaddomob.1.6.4.jar"/>
+	<classpathentry kind="lib" path="libs/tgsdkadinmobi.1.6.4.jar"/>
+	<classpathentry kind="lib" path="libs/tgsdkadvungle.1.6.4.jar"/>
+	<classpathentry kind="lib" path="libs/vungle-publisher-adaptive-id-4.0.3.jar"/>
+	<classpathentry kind="lib" path="libs/dagger-2.7.jar"/>
+	<classpathentry kind="lib" path="libs/ayang-protobuf-java-2.6.1.jar"/>
+	<classpathentry kind="lib" path="libs/ayang-sdk-mobile-ad-2.5.jar"/>
+	<classpathentry kind="lib" path="libs/domob-video-sdk-1.1.2.jar"/>
+	<classpathentry kind="lib" path="libs/InMobi-6.1.1.jar"/>
+	<classpathentry kind="lib" path="libs/internal_impl-24.1.0.jar"/>
+	<classpathentry kind="lib" path="libs/javax.inject-1.jar"/>
+	<classpathentry kind="lib" path="libs/videolibrary-release_v1.2.2.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/libcocos2dx"/>
+	<classpathentry kind="lib" path="/libcocos2dx/bin/libcocos2dx.jar"/>
+	<classpathentry kind="src" path="raw"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/google-play-services_lib"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

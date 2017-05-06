@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <include
+        android:id="@+id/tt_include"
+        layout="@layout/iapppay_demo_layout_title" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tt_include">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="请选择您想体验的商品类型"
+                    android:textColor="#000"
+                    android:textSize="13sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/iapppay_demo_border_style"
+                    android:orientation="vertical"
+                    android:padding="1dp">
+
+                    <LinearLayout
+                        android:id="@+id/ll_btn1"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="105dp"
+                            android:layout_height="match_parent"
+                            android:background="#f7f7f7"
+                            android:gravity="right|center_vertical"
+                            android:paddingRight="10dp"
+                            android:text="按次收费"
+                            android:textColor="#000"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="left|center_vertical"
+                            android:paddingLeft="10dp"
+                            android:text="100爱贝币【0.02元】"
+                            android:textColor="#606060"
+                            android:textSize="15dp" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="#bcbcbc" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_btn2"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="105dp"
+                            android:layout_height="match_parent"
+                            android:background="#f7f7f7"
+                            android:gravity="right|center_vertical"
+                            android:paddingRight="10dp"
+                            android:text="买断"
+                            android:textColor="#000"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="left|center_vertical"
+                            android:paddingLeft="10dp"
+                            android:text="开启爱贝之旅【0.01元】"
+                            android:textColor="#606060"
+                            android:textSize="15dp" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="#bcbcbc" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_btn3"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="105dp"
+                            android:layout_height="match_parent"
+                            android:background="#f7f7f7"
+                            android:gravity="right|center_vertical"
+                            android:paddingRight="10dp"
+                            android:text="包次数"
+                            android:textColor="#000"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="left|center_vertical"
+                            android:paddingLeft="10dp"
+                            android:text="爱贝3次体验【0.02元/3次】"
+                            android:textColor="#606060"
+                            android:textSize="15dp" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="#bcbcbc" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_btn4"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="105dp"
+                            android:layout_height="match_parent"
+                            android:background="#f7f7f7"
+                            android:gravity="right|center_vertical"
+                            android:paddingRight="10dp"
+                            android:text="包时长"
+                            android:textColor="#000"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="left|center_vertical"
+                            android:paddingLeft="10dp"
+                            android:text="双倍经验【0.01元/天】"
+                            android:textColor="#606060"
+                            android:textSize="15dp" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="#bcbcbc" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tv_shzdy"
+                            android:layout_width="105dp"
+                            android:layout_height="match_parent"
+                            android:background="#f7f7f7"
+                            android:gravity="right|center_vertical"
+                            android:paddingRight="10dp"
+                            android:text="商户自定义"
+                            android:textColor="#000"
+                            android:textSize="14dp" />
+
+                        <EditText
+                            android:id="@+id/et_input_price"
+                            android:layout_width="match_parent"
+                            android:layout_height="34dp"
+                            android:numeric="integer"
+                            android:maxLength="8"
+                            android:layout_centerVertical="true"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toLeftOf="@+id/tv_fen"
+                            android:layout_toRightOf="@+id/tv_shzdy"
+                            android:background="@drawable/iapppay_demo_edit_border_style" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:layout_toLeftOf="@+id/btn_kaifangjiage"
+                            android:text="分"
+                            android:textColor="#606060"
+                            android:textSize="15dp"
+                            android:id="@+id/tv_fen" />
+                        <Button
+                            android:id="@+id/btn_kaifangjiage"
+                            android:layout_width="69dp"
+                            android:layout_height="34dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="7dp"
+                            android:background="#00baf2"
+                            android:text="确认支付"
+                            android:textColor="#fff"
+                            android:textSize="14sp" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginTop="15dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="*"
+                        android:textColor="#bcbcbc"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="本次体验为真实环境，体验金额不予退还，请勿大额支付。"
+                        android:textColor="#bcbcbc"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,24 @@
+#include<string.h>  
+#include<jni.h>  
+#include<android/log.h>  
+  
+  
+JNIEnv *g_env;  
+jobject *g_object;  
+#define COCOS2D_DEBUG 1
+#define LOG_TAG "Gmw"  
+#define LOGV(...) __android_log_print(ANDROID_LOG_VERBOSE, LOG_TAG, __VA_ARGS__)  
+#define LOGI(...)  __android_log_print(ANDROID_LOG_INFO, LOG_TAG, __VA_ARGS__)
+  
+  
+extern "C"  
+{  
+  
+	JNIEXPORT jstring JNICALL Java_org_cocos2dx_cpp_AppActivity_stringFromJNI(JNIEnv* env,jobject thiz)  
+	{  
+		LOGV("JAVA 调用 JNI");
+	    return env->NewStringUTF("callCMessageBox");
+
+	}  
+  
+}  
